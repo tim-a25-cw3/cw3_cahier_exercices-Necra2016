@@ -1,5 +1,11 @@
 import Icons from './utils/Icons.js';
-
+import Swiper from 'swiper/bundle';
+const swiper = new Swiper('.js-swiper', {
+  speed: 400,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
 class Main {
   constructor() {
     this.init();

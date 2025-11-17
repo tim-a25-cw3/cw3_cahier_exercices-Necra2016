@@ -1,0 +1,31 @@
+.icone {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    color: #8c8c8c;
+    padding-top: 30px;
+}
+.icone a {
+    color: #8c8c8c;
+}
+.footer .wrapper {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+p.contact {
+    font-size: typo(56px);
+    color: #8c8c8c;
+    padding-bottom: 4px;
+}
+p {
+    margin: 0px;
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    font-size: typo(18px);
+}
+.moi {
+    color: var(--color-white);
+}
